@@ -39,7 +39,7 @@ class ApiRepository {
             }
             return Future.value(allProductModel.productsList);
           }
-          break;
+
         case 401:
           return Future.error(AppConstants.k401ErrorMessage);
         case 404:
